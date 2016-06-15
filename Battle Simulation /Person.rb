@@ -27,7 +27,7 @@ class Person
 		lastHealt = @PowerInterface.getHealth
 		lastAttack = @PowerInterface.getAttack
 		lastAvoid = @PowerInterface.getAvoid
-		@PowerInterface = power # will the new initialized values be the standard
+		@PowerInterface = power 
 		@PowerInterface.setStatus(lastHealt,lastAttack,lastAvoid)
 	end
 	def seeStatus
