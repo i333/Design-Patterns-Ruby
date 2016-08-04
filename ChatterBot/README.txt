@@ -12,9 +12,6 @@ PURPOSE:
 The purpose of this software is to demonstrate ability to understand and use Template, Strategy and Observer Design patterns. This software reads files and creates Chatter bots to interact with the user. The answer capability of the bots are limited to the text file their knowledge base defined. Chatbots observe users responses and get individual responses from user. Chatbots can decide to answer in their knowledge base, change subject, end conversation. 
 
 
-PERCENT COMPLETE:
-100
-
 FILES:
 ResponseStrategy.rb, MatchedResponse.rb, EndResponse.rb, QuestionResponse.rb, AvoidResponse.rb, User.rb, chatter.txt, SadChatter.txt, Script.txt, hw2.rb(main) , ChatterTemplate.rb, HappyBot.rb, SadBot.rb, ReaderBot.rb, README.txt
 
